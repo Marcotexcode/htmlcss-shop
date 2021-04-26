@@ -10,8 +10,7 @@
     content: "";
     display: table;
     clear: both;
-  }
-
+}
 
 .container {
     width: 70%;
@@ -29,7 +28,6 @@
     float: left;
     width: calc(100% / 3 - 10px - 10px );  
 }
-
 
 
 
@@ -69,6 +67,10 @@
     left: 40px;
 }
 
+.box-img-info-alternative {
+    left: 0;
+}
+
 .origin {
     display: block;
 }
@@ -84,7 +86,6 @@
 .box:hover .effetto-hover {
     display: block;
 }
-
 
 
 
@@ -111,33 +112,20 @@
     color: red;
 }
 
-
-
-
-
-
-
-
-
-/* debug */
-
-.debug .container {
-    background-color: red;
+.box-tex-alternative {
+    background-color: darkolivegreen;
+    padding: 10px 15px;
 }
 
-.debug .container-box{
-    
-    background-color: blue;
+.box-tex-alternative h2 {
+    font-size: 18px;  
 }
 
-.debug .box {
-   
-    background-color: aquamarine;
-}
 
-.debug .box-img {
-   
-    
-    background-color: burlywood;
-}
+
+
+
+
+
+
 
